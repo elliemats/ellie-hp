@@ -1,35 +1,83 @@
-# Coding Exercise for Front-End Developer candidates
+# Ellie's Hardcore Produce Leaderboard
 
-## Introduction
+## What is Hardcore Produce? 
 
-This exercise will help the hiring team at Spredfast gauge your level of front-end coding experience (HTML, CSS & JavaScript).
+It's only the baddest of the bad. Fruits, veggies, you name it... (actually it's only fruits and veggies). **Hardcore Produce** gives you live updates on the best leaderboard on the web. The board shows you the top five hardcore fruit/veggie names paired with the number of times they've been mentioned on Twitter or Facebook. 
 
-Please budget about two hours of actual coding time to complete the project. We realize that's a tight constraint, but we'd like to be respectful of your time while still allowing you to produce enough code for us to make a fair assessment of your skills. Try to ensure that the finished product represents your coding abilities. You are not necessarily expected to fully finish within the time limit. We'd much rather review high-quality, incomplete work than rushed, completed work. Be prepared to explain your thinking and how your development process lead to your solution.
+## Table of Contents 
+***
+1.  Noteable Features
+- Display Screenshots 
+  - Desktop 
+  - Mobile/Tablet 
+- Installation & Setup
+- Build Overview 
+  - Utilized Technologies
+- Developer
+- License & Links
 
-We've created a few starter files that you should flesh out:
+## Noteable Features
+***
+- Responsive Design (desktop and mobile display)
+- Leaderboard updates every 15 seconds
+- Animated information display (jQuery)
 
-* [index.html](index.html)
-* [style.css](css/style.css)
-* [script.js](js/script.js)
+## Display Screenshots
+***
 
-and a [PSD](Leaderboard.psd) to use as a mockup.
+### Desktop Display:
 
-## Requirements
+![desktop](https://s3-us-west-2.amazonaws.com/emat/d.png "Desktop Display")
 
-You will build a "Hardcore Produce" leaderboard, which is a list of the top five hardcore fruit & veggie names paired with the number of times that they have been mentioned on Twitter or Facebook.
+### Mobile/Tablet Display:
 
-For simplicity's sake, we've stubbed out an API interface within a library (see [api.js](js/api.js)). The library provides a `Poller()` class with a `.poll()` method. This method will poll for the top names of the type of produce requested in each poll ('fruits' or 'veggies').
+![mobile](https://s3-us-west-2.amazonaws.com/emat/mt.png "Mobile/Tablet")
 
-Your task is to use the poll method to implement a solution that handles multiple asynchronous responses to build the "Hardcore Produce" leaderboard. The leaderboard that you build should satisfy these basic requirements:
 
-* Visually adhere to the provided [PSD](Leaderboard.psd).
-* Every 15 seconds, update the leaderboard to show the latest produce names and counts, sorted descending by count.
-* The resulting leaderboard should be a mix of both fruits and veggies.
-* **Bonus:** Animate the leaderboard update in some way (fade/dissolve, sliding, etc.).
-* **Bonus:** Make the leaderboard a responsive design that displays nicely on smaller screens.
+## Installation & Setup
+***
+1. Clone this repo (or forked copy) to your local computer. 
 
-When you're finished, please send your work to your Spredfast dev contact as a .zip file or (preferably) a link to a public repo on GitHub.
+  ` git clone https://github.com/ematsusaka/ellie-hp `
+  
+2. Navigate into the **ellie-hp** directory.
 
-## Questions?
+  ` cd ellie-hp `
+    
+3. Install all dependencies with npm. 
 
-Please use your best judgment to interpret the requirements above. However, if you're stuck with questions, feel free to email your Spredfast dev contact. There are no bad questions (other than, "What does JavaScript mean?").
+  ` npm install`
+
+5. Run 'grunt serve' in the command line.
+
+  ` grunt serve`
+
+
+7. Boom! **Ellie's Hardcore Produce** is now running on: <http://localhost:3000>
+
+## Build Overview
+
+### Utilized Technology 
+***
+- [plain ol' vanilla JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [HTML5](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+- [Sass/SCSS](http://sass-lang.com/)
+- [Grunt](http://gruntjs.com/)
+- [Webpack](https://webpack.github.io/)
+- [Express](http://expressjs.com/en/index.html)
+- [jQuery](https://jquery.com/)
+- [Amazon Web Services S3](https://aws.amazon.com/)
+
+## Developer 
+***
+
+**Ellie Matsusaka** 
+
+### Links
+*** 
+
+- [Ellie's GitHub](https://www.github.com/ematsusaka)
+
+### License
+***
+Licensed under the MIT license.
