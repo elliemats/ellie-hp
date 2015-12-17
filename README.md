@@ -38,7 +38,7 @@ It's only the baddest of the bad. Fruits, veggies, you name it... (actually it's
 ***
 1. Clone this repo (or forked copy) to your local computer. 
 
-  ` git clone https://github.com/ematsusaka/ellie-hp `
+  ` git clone https://github.com/ematsusaka/ellie-hp.git `
   
 2. Navigate into the **ellie-hp** directory.
 
