@@ -1,0 +1,23 @@
+/* ********** COLORS ********** */
+$grey-dark       : #333;
+$grey-medium     : #666;
+$grey-light      : #eee;
+$black           : #000;
+$ruby            : #b20000;
+$white            : #fff;
+
+
+
+/* ********** GRADIENT ********** */
+$gradient        : -webkit-linear-gradient($grey-light,$grey-dark);
+
+
+
+/* ********** OPACITY ********** */
+$op-medium       : rgba(0,0,0,0.5);
+$op-dark         : rgba(0,0,0,0.8);
+
+
+
+/* ********** DIVIDER ********** */
+$divider         : 1px solid $grey-medium;

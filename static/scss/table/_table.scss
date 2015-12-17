@@ -1,0 +1,47 @@
+/* General Desktop/Laptop Display */
+table {
+  width: 60%;
+  border-collapse: collapse;
+  margin: 40px auto;
+  border: 6px solid $grey-light;
+}
+
+tr {
+  background: $op-medium;
+}
+
+td {
+  padding: 17px 40px;
+  border-bottom: $divider;
+  text-align: left;
+  height: 40px;
+}
+
+/* medium width screens */
+@media (max-width: 760px) {
+  table,tbody,td,tr {
+    display: block;
+  }
+
+  tr:nth-of-type(odd) {
+    background: $op-dark;
+  }
+
+  td {
+  /* Behave  like a "row" */
+    border: none;
+    position: relative;
+    padding: 5px;
+    height: 30px;
+  }
+
+  td:before {
+  /* Now like a table header */
+    position: absolute;
+  /* Top/left values mimic padding */
+    top: 6px;
+    left: 6px;
+    width: 45%;
+    white-space: nowrap;
+  }
+}

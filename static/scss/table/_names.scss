@@ -1,0 +1,11 @@
+/* General Desktop/Laptop Display */
+.name {
+  @include text(1.5em, left, $white, 700);
+}
+
+/* medium width screens */
+@media (max-width: 760px) {
+  .name {
+    @include ctext(1.5em);
+  }  
+}

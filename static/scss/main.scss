@@ -1,0 +1,9 @@
+/* ********** GLOBAL IMPORTS ********** */
+
+@import 'basic/index';
+@import 'table/index';
+
+html {
+  background-image: $metal;
+  font-family: $font-arial; 
+}

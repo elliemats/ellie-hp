@@ -1,0 +1,18 @@
+{
+  "name": "hardcoreProduce",
+  "version": "1.0.0",
+  "author": "Ellie Matsusaka <ellie.matsusaka@gmail.com>",
+  "dependencies": {
+    "express": "^4.12.3"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-express-server": "^0.5.1",
+    "grunt-open": "^0.2.3",
+    "grunt-sass": "^0.18.1",
+    "grunt-webpack": "^1.0.8",
+    "load-grunt-tasks": "^3.1.0",
+    "webpack": "^1.8.11"
+  }
+}

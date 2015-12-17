@@ -1,0 +1,13 @@
+/* General Desktop/Laptop Display */
+.nums {
+  @include text(1.6em, right, $ruby, 700);
+  padding-right: 0px;
+}
+
+/* medium width screens */
+@media (max-width: 760px) {
+  .nums {
+    @include ctext(1.2em);
+    padding: 0;
+  }  
+}

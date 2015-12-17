@@ -1,0 +1,17 @@
+/* General Desktop/Laptop Display */
+.mentions {
+  @include text(1.1em, right, $grey-light);
+  padding: 0px;
+  padding-right: 25px;
+}
+
+/* medium width screens */
+@media (max-width: 760px) {
+  .mentions {
+    @include ctext(0.8em);
+    margin: 0 auto;
+    border-bottom: $divider;
+    padding-right: 0;
+    text-transform: uppercase;
+  }
+}

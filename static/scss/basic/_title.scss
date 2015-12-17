@@ -1,0 +1,16 @@
+/* General Desktop/Laptop Display */
+#title {
+  @include text(4.5em, center);
+  background: $gradient;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: $font-audiowide;
+}
+
+/* medium width screens */
+@media (max-width: 760px) {
+  #title {
+    @include ctext(1.5em);
+    padding: 40px auto;
+  }  
+}

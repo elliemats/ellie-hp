@@ -1,0 +1,14 @@
+/* ********** TEXT MIXINS ********** */
+
+@mixin text($size, $align, $color: null, $weight: null) {
+  font-size: $size;  
+  text-align: $align;
+  color: $color;
+  font-weight: $weight;
+};
+
+/* centered text */
+@mixin ctext($size) {
+  font-size: $size; 
+  text-align: center;  
+}
